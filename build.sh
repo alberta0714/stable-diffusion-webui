@@ -15,7 +15,13 @@ pip3 install -r requirements.txt
 python3 setup.py install
 Command: "git" -C "repositories/stable-diffusion-stability-ai" checkout 47b6b607fdd31875c9279cd2f4f16b92e4ea958e
 git checkout 47b6b607fdd31875c9279cd2f4f16b92e4ea958e
-git -c "repositories/stable-diffusion-stability-ai" checkout 47b6b607fdd31875c9279cd2f4f16b92e4ea958e
+git -c "repositories/stable-diffusion-stability-ai" checkout fc1488421a2761937b9d54784194157882cbc3b1
+
+yum remove git
+yum -y install https://packages.endpoint.com/rhel/7/os/x86_64/endpoint-repo-1.7-1.x86_64.rpm
+yum install git
+git --version
+
 
 
 exit 0
