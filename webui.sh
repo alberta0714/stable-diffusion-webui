@@ -2,7 +2,7 @@
 #################################################
 # Please do not make any changes to this file,  #
 # change the variables in webui-user.sh instead #
-#################################################
+#################################################Cannot activate python venv
 
 # If run from macOS, load defaults from webui-macos-env.sh
 if [[ "$OSTYPE" == "darwin"* ]]; then
