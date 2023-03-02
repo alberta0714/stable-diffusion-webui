@@ -15,6 +15,7 @@ pip3 install -r requirements.txt
 python3 setup.py install
 Command: "git" -C "repositories/stable-diffusion-stability-ai" checkout 47b6b607fdd31875c9279cd2f4f16b92e4ea958e
 git checkout 47b6b607fdd31875c9279cd2f4f16b92e4ea958e
+git -c "repositories/stable-diffusion-stability-ai" checkout 47b6b607fdd31875c9279cd2f4f16b92e4ea958e
 
 
 exit 0
