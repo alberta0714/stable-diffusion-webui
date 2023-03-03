@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-git pull
 git add .
 git commit -a -m "ac"
+git pull
 git push
 #SSHREMOTE=root@152.136.186.81
 #SSHREMOTE=ai@43.130.154.63
