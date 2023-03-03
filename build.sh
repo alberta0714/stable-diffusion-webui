@@ -51,4 +51,21 @@ wget -O chilloutmix_NiPrunedFp32.safetensors https://civitai.com/api/download/mo
 作者：jasoai https://www.bilibili.com/read/cv21955055 出处：bilibili
 
 
+
+git clone https://github.com/kohya-ss/sd-webui-additional-networks extensions/sd-webui-additional-networks
+git clone https://github.com/kohya-ss/sd-webui-additional-networks sd-webui-additional-networks
+cd extensions/sd-webui-additional-networks/models
+wget -O koreanDollLikeness_v10.safetensors https://civitai.com/api/download/models/8750 --no-check-certificate
+wget -O koreanDollLikeness_v1.safetensors https://civitai.com/api/download/models/13739 --no-check-certificate
+
+
+best quality, ultra high res, (photorealistic:1.4), Iwoman, Hatsune Miku , sleeveless white button shirt,  black skirt, black choker, cute,(Kpop idol), (aegyo sal:1 ), (platinum blonde hair:1), ((puffy eyes)),(red hair:1), facing front, full body , looking at viewer
+paintings, sketches,(worst quality:2), (low quality:2), (normal quality:2),lowres, normal quality, ((monochrome)),((grayscale)),skin spots, acnes, skin blemishes, age spot, glans, nsfw, nipples
+
+
+(8k, RAW photo, best quality, masterpiece:1.2), (realistic, photo-realistic:1.37), omertosa, 1girl, (Kpop idol), (aegyo sal:1), cute, cityscape, night, rain, wet, professional lighting, photon mapping, radiosity, physically-based rendering,
+EasyNegative, paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, glans,extra fingers,fewer fingers,strange fingers,bad hand
+
+rsync -r root@43.130.154.63:/data/code/github/stable-diffusion-webui/outputs/ /Users/sunzhanchao/Downloads/aiputputs/
+
 exit 0
