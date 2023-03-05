@@ -85,3 +85,8 @@ extremely detailed CG unity 8k wallpaper,
 Negative prompt: (EasyNegative:1.2), ng_deepnegative_v1_75t, paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, ((monochrome)), (grayscale:1.2), (skin spots:1.6), acnes, (skin blemishes), (age spot), glans,extra fingers,fewer fingers,(watermark:1.2),(letters:1.2),(nsfw:1.2),teeth,(sexy:1.2),(belly:1.5),(English Text),same face,extra leges,((NASA logo)),(big breast:1.7),((USA flag)),
 (twisted fingers: 1.3), (excessively bent fingers: 1.3),(worst quality, low quality:1.4),((on stomach:2.0)),((tranny)),(interlocked fingers: 1.3),
 Size: 1024x1024, Seed: 1827603352, Model: chilloutmix_NiPrunedFp32Fix, Steps: 108, Sampler: DPM++ 2M Karras, CFG scale: 7, Mask blur: 4, Model hash: fc2511737a, ControlNet Model: control_sd15_openpose [fef5e48e], ControlNet Module: openpose, ControlNet Weight: 1, ControlNet Enabled: True, Denoising strength: 0.75, ControlNet Guidance Strength: 1
+
+
+pip install torch==1.13.1 torchvision==0.14.1  --extra-index-url https://download.pytorch.org/whl/cu117
+pip install torchvision==0.14.1+cu117 --extra-index-url https://download.pytorch.org/whl/cu117
+pip install torch==1.13.1+cu117 --no-cache-dir --extra-index-url https://download.pytorch.org/whl/cu117
