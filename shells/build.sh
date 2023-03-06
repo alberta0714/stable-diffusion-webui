@@ -52,6 +52,30 @@ wget -O chilloutmix_NiPrunedFp32.safetensors https://civitai.com/api/download/mo
 wget -O chilloutmix_NiPrunedFp32Fix.safetensors https://civitai.com/api/download/models/9475 --no-check-certificate
 
 
+#####
+https://civitai.com/models/8101/female-cartoon-deer
+wget -O femaleCartoonDeer_10.safetensors https://civitai.com/api/download/models/9561 --no-check-certificate
+
+https://civitai.com/models/15447/kaiba-anime-style-unique-cartoonish-anime-style
+wget -O kaibaAnimeStyleUnique_lighterVersion12.safetensors https://civitai.com/api/download/models/18213 --no-check-certificate
+
+https://civitai.com/models/1618/cartoonishdoll
+wget -O chilloutmix_NiPrunedFp32.safetensors https://civitai.com/api/download/models/1618 --no-check-certificate
+
+https://civitai.com/models/4181/hotfantasy-ai-anime-hd-v13-720p
+wget -O chilloutmix_NiPrunedFp32.safetensors https://civitai.com/api/download/models/4181 --no-check-certificate
+
+
+
+
+
+
+
+
+
+
+
+
 git clone https://github.com/kohya-ss/sd-webui-additional-networks extensions/sd-webui-additional-networks
 git clone https://github.com/kohya-ss/sd-webui-additional-networks sd-webui-additional-networks
 cd extensions/sd-webui-additional-networks/models
