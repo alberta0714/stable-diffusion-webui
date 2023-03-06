@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+cd ..
 git add .
 git commit -a -m "ac"
 git pull
