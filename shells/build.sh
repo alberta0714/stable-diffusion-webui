@@ -60,10 +60,10 @@ https://civitai.com/models/15447/kaiba-anime-style-unique-cartoonish-anime-style
 wget -O kaibaAnimeStyleUnique_lighterVersion12.safetensors https://civitai.com/api/download/models/18213 --no-check-certificate
 
 https://civitai.com/models/1618/cartoonishdoll
-wget -O chilloutmix_NiPrunedFp32.safetensors https://civitai.com/api/download/models/1618 --no-check-certificate
+wget -O cartoonish_doll.pt https://civitai.com/api/download/models/1761 --no-check-certificate
 
 https://civitai.com/models/4181/hotfantasy-ai-anime-hd-v13-720p
-wget -O chilloutmix_NiPrunedFp32.safetensors https://civitai.com/api/download/models/4181 --no-check-certificate
+wget -O hotfantasyAIAnimeHDV1_hotfantasyAIAnimeV13 https://civitai.com/api/download/models/6199 --no-check-certificate
 
 
 
