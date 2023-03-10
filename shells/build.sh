@@ -81,7 +81,7 @@ git clone https://github.com/kohya-ss/sd-webui-additional-networks sd-webui-addi
 cd extensions/sd-webui-additional-networks/models
 wget -O koreanDollLikeness_v10.safetensors https://civitai.com/api/download/models/8750 --no-check-certificate
 wget -O koreanDollLikeness_v1.safetensors https://civitai.com/api/download/models/13739 --no-check-certificate
-
+wget -O chilloutnight_.safetensors https://civitai.com/api/download/models/9770 --no-check-certificate
 
 best quality, ultra high res, (photorealistic:1.4), Iwoman, Hatsune Miku , sleeveless white button shirt,  black skirt, black choker, cute,(Kpop idol), (aegyo sal:1 ), (platinum blonde hair:1), ((puffy eyes)),(red hair:1), facing front, full body , looking at viewer
 paintings, sketches,(worst quality:2), (low quality:2), (normal quality:2),lowres, normal quality, ((monochrome)),((grayscale)),skin spots, acnes, skin blemishes, age spot, glans, nsfw, nipples
